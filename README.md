@@ -6,7 +6,7 @@
 
 > This data set includes information about individual rides made in a bike-sharing system covering the greater San Francisco Bay area. 
 > There are 183,412 columns in the dataset with 16 features (```duration_sec```, ```start_time```, ```end_time```, ```start_station_id```, ```start_station_name```, ```start_station_latitude```, ```start_station_longitude```, ```end_station_id```, ```end_station_name```, ```end_station_latitude```, ```end_station_longitude```, ```bike_id```, ```user_type```, ```member_birth_year```, ```member_gender```, ```bike_share_for_all_trip```). Most variables are string in nature, but the variables ```user_type``` and ```member_gender``` are categorical features.
-> The ```start_time``` column was split to determine when most trips are taken in terms of time of day and day of the week. ```duration_min``` column was created to convert trip duration from seconds to minute.
+> The ```start_time``` column was split to determine when most trips are taken in terms of time of day and day of the week. ```duration_min``` column was created to convert trip duration from seconds to minutes. ```age```  column was created from ```member_birth_year``` to determine riders' age.
 
 ## Summary of Findings
 
